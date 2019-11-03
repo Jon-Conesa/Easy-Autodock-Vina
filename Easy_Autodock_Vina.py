@@ -26,7 +26,7 @@ print("")
 print("Done")
 
 #Moving Vina to another directory
-print("Moving Autodock Vina to directory... :D")
+print("Moving Autodock Vina to the directory... :D")
 os.system('mv autodock_vina_1_1_2_linux_x86/bin/vina ./')
 #os.system('mv autodock_vina_1_1_2_linux_x86/bin/vina_split ./')
 
@@ -199,7 +199,7 @@ size_z = input("Input the size_z value:")
 print("")
 erase_confirmation = ""
 erase_confirmation_bool = False
-print("Every time a caclulation is done, do you want to erase the .pdbqt file or keep it?")
+print("Every time a calculation is done, do you want to erase the .pdbqt file or keep it?")
 while True:
     erase_confirmation = input("y (for erasing the file) and n (for keeping the file):")
     if erase_confirmation == "y" or erase_confirmation == "Y":
