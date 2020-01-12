@@ -22,6 +22,7 @@ print("")
 os.system('tar zxvf AutodockVinaZip.tgz')
 #Deleting Zip File
 os.system('rm AutodockVinaZip.tgz')
+os.system('sudo apt install autodock-vina')
 print("")
 print("Done")
 
